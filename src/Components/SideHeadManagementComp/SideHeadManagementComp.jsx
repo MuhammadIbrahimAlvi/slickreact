@@ -1,11 +1,9 @@
-import React from 'react';
+// import React from 'react';
 
-const SideHeadManagementComp=()=>{
-    return(
-        <div className="sideheadcompManagement">
-            <h3>Management</h3>
-        </div>
-    )
-}
+// const SideHeadManagementComp=()=>{
+//     return(
+       
+//     )
+// }
 
-export default SideHeadManagementComp;
+// export default SideHeadManagementComp;

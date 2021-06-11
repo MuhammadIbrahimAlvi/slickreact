@@ -1,10 +1,17 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './ManageProductBottom.css';
 import Product1 from '../../assets/ProductPic1.png';
 import coin from '../../assets/Coin.svg';
 import Img2 from '../../assets/pencil.svg';
 import Img3 from '../../assets/trash.svg';
+import axios from 'axios';
+// import { ApiCall } from '../ApiCall';
+
 const ManageProductsBottom = () => {
+    useEffect(()=>{
+    const res = axios.get('https://internship-slick-api.herokuapp.com/api/products/categories')
+    console.log(res);
+        },[])
     return (
         <div className="manageproductsbtm">
             <div className="div div13">

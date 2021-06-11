@@ -7,7 +7,7 @@ const SidePageController = () => {
         <Aux>
             {/* <p>Side Page where all the products slider etc will be contained</p> */}
             <SidePageCompHolder />
-            <ManageBanners/>
+            {/* <ManageBanners/> */}
         </Aux>
 
     )

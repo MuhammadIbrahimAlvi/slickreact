@@ -7,19 +7,23 @@ import management from '../../assets/Management.svg';
 const navLinks = [
     {
         text:'Home',
-        src:homeicon
+        src:homeicon,
+        path:'/'
     },
     {
         text:'Analytics',
-        src:analytics
+        src:analytics,
+        path:'/analytics'
     },
     {
         text:'Products',
-        src:product
+        src:product,
+        path:'/products'
     },
     {
         text:'Management',
-        src:management
+        src:management,
+        path:'/management'
     },
 ]
 

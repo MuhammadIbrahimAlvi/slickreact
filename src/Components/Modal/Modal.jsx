@@ -58,8 +58,8 @@ const Modal = () => {
     return (
         <div className="modal-container">
             <div className="modal-field">
-                {/* {addNewBanner} */}
-                {/* {addNewProduct} */}
+                {/* {addNewBanner}  */}
+               {/* {addNewProduct} */}
             </div>
         </div>
     )

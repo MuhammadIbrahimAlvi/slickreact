@@ -4,6 +4,7 @@ import NavSideBar from '../NavsideBar/NavsideBar';
 import SidePageController from '../SidePage/SidePageController';
 import SidePageCompHolder from '../SidePage/SidePageController';
 import Modal from '../../Components/Modal/Modal';
+
 const Layout = () => {
     return (
         <div className="layout">
